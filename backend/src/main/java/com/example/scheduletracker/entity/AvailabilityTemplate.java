@@ -9,7 +9,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 /** Weekly availability template for teacher */
 @Entity
-@Table(name = "availability_templates")
+@Table(name = "availability_template")
 public class AvailabilityTemplate {
   @Id
   @GeneratedValue(generator = "UUID")
